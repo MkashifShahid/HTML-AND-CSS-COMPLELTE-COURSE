@@ -1,0 +1,32 @@
+<html>
+    <head><title>TRANSITION </title>
+        <style>
+    #mydiv{
+      border: 3px black ridge; 
+      height: 200px; 
+      width: 200px;
+      background-color: lightgray;
+      transition-duration: 3s;
+     transition-property: all;
+     transition-timing-function:  ease in;
+    }
+#mydiv:hover{
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+    background-color: blue;border: 14px yellow double;
+    transform: rotate(360deg);
+    font-size: 40px;
+    font-weight: bold;
+     color: white ;
+}
+p:hover{
+    text-align: center;
+    transform: rotate(360deg);
+}
+</style>
+    </head>
+    <body>
+        <div id="mydiv"> <p>THIS IS TRANSITION</p></div>
+    </body>
+</html>

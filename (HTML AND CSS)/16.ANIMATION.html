@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSTION</title>
+    <style>
+    body{
+    background: linear-gradient(to left,pink,red,orange);
+        }
+        #mydiv
+        {
+            font-weight: bold;
+            border: 5px green ridge;
+            height: 200px;
+            width: 200px;
+            background-color: lightgreen;  
+            animation-name: Myanimation;
+            animation-duration: 8s;
+            animation-iteration-count:infinite;
+            animation-direction:alternate;
+            /* animation-delay: 1s; */
+            animation-timing-function: ease-in ; 
+            
+        }
+        @keyframes Myanimation{0% {background-color:rgb(89, 23, 150); border-radius:0px;} 
+        25% { margin-left:50px ;  margin-top: 50px; background-color:green; border-radius:30px; transform: rotate(60deg) ;} 
+        50% {  margin-left:100px ;  margin-top: 100px;background-color:black; border-radius:60px; transform: rotate(120deg)} 
+        120% {  margin: left 150px;  margin-top: 150px; ; background-color:blue; border-radius:px;90 transform: rotate(180deg)} 
+            100%{  margin-left:200px ; margin-top: 200px; background-color:yellow; border: radius 125px; transform: rotate(360deg)}
+        }
+    </style>
+</head> 
+<body>
+  <div id="mydiv"></div> 
+
+</body>
+</html> 

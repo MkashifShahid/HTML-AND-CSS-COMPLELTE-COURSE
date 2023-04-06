@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mydiv
+{
+    border: 5px black ridge;
+    height: auto;
+    width: 1200px;  
+    overflow: hidden;
+    margin: auto;
+}
+
+header{
+    border: 5px red ridge;
+    height: 250px;
+    width: inherit;
+}
+img{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.name{
+    font-size: 70px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
+    font-family:serif ;
+}
+nav{
+    border: 5px blue ridge;
+    height: 55px;
+    width:inherit ;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    z-index: 999;
+}
+nav ul li{
+    border: 2px black ridge;
+    height: 50px;
+    width: 100px;
+    background-color: gray;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    line-height: 45px;
+}
+nav ul li a  {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(59, 6, 252);
+}
+nav ul li:hover{
+    background-color: aqua;
+    border: 4px black groove;
+}
+nav ul li a:hover{
+    color: green;
+}
+nav li ul{
+    display: none;
+}
+nav li:hover ul{
+    display:block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+nav li:hover li{
+
+    float: none;
+    display: block;
+}
+
+.slider{
+    border:5px orange ridge ;
+    height: 300px;
+    width:inherit ;
+}
+
+.homesection{
+    border:5px purple ridge ;
+    heightauto;
+    width:800px ;
+    float: left;
+    background-color: purple;
+}
+.gallery{
+    border: 5px purple ridge;
+    height: 600px;
+    width: 1200px;
+}
+.item{
+
+   height: 210px;
+   width: 210px;
+   float: left;
+}
+.imageDiv{
+    border:5px black ridge;
+    height: 170px;
+    width: 170px;
+    overflow: hidden;
+}
+.item .imageDiv img{
+    margin: auto;
+   height:180px ;
+   width: 180px; 
+   transition: 1s all;
+   text-align: center;
+}
+.item .imageDiv img:hover{
+height: 200px;
+width: 200px;
+
+}
+.aboutus{
+    border: 5px purple ridge;
+    height: 600px;
+    width: 1200px;
+    background-color: purple;}
+   
+.contactus{
+    border: 5px green ridge;
+    height: 600px;
+    width: 1200px;
+    background-color: green;}
+aside{
+    border:5px pink ridge ;
+    height:600px ;
+    width: 380px;
+    float: left;
+}
+
+aside marquee{
+    text-align: center;
+}
+
+aside marquee p{
+    font-size: 25px;
+    border-bottom: 3px black ridge ;
+}
+.heading{
+    text-align: center;
+    font-size: 35px;
+}
+
+footer{
+    border: 5px brown ridge;
+    height: 60px;
+    width: inherit;
+    float: left;
+}
+ 

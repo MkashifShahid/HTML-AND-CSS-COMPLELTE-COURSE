@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>FORM ATTRIBUTES (REQUIRED, PLACEHOLDER, PATTERN, MULTIPLE, AUTOFOCUS, AUTOCOMPLETE)</title>
+<style>
+fieldset{
+    width: 400px;
+}
+body{
+background: linear-gradient(to left,blue,yellow,green);
+}
+</style>
+</head>
+<center>
+<form>
+<fieldset>
+<legend>Registration Form</legend>
+
+<input type="text" autocomplete="on" name="text" required="required" placeholder="Please Enter Your Name" autofocus="autofocus" />
+<br><br>
+ 
+<lable>Gender</lable>
+<lable>Male</lable>
+<input type="button" name="gender"/>
+<lable>Female</lable>
+<input type="button" name="gender"/ >
+<br><br>
+
+<lable>Please Upload file</lable>
+<input type="file" multiple="multiple"/><br><br>
+
+<input list="nation" placeholder="Select Your Nationality"/>
+<datalist id="nation">
+    <option value="PAKISTAN"></option>
+    <option value="INDIA"></option>
+    <option value="AFGANISTAN"></option>
+    <option value="BANGLADESH"></option>
+</datalist>
+<br><br>
+
+<label> Email:</label>
+<input type="email" required/>
+<br><br>
+
+<br><br>
+<label>Password:</label>
+<input type="text" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="please enter uppercase lower case and numbers without using space"/>
+<br><br>
+<lable for="feedback"> FeedBack</lable>
+<textarea id="feedback" rows="10" cols="50"></textarea>
+<br><br>
+
+<input type="submit"/>
+</fieldset>
+</form>
+</center>
+<body>
+    
+</body>
+</html>

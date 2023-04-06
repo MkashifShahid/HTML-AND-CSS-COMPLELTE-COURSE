@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALL FORM - INPUT ELEMENTS IN ONE WEB PAGE </title>
+<style>
+    fieldset{
+         width: 380px;
+    }
+    body{
+        background: linear-gradient(to left,green,red,yellow,blue);
+    }
+</style>
+
+</head>
+<body>
+    <center>
+    <form>
+         <fieldset>
+            <legend>MY NEW FORM</legend>
+        <label>Name :</label>  
+        <input type="text" />
+        <br> 
+        <br>
+
+        <label>Select Your Nationality</label>
+        <input list="nation"/>
+        <datalist id="nation"> 
+            <option value="Pakistan"> </option>
+            <option value="India"></option>
+            <option value="Srilanka"></option>
+            <option value="Bangladesh"></option>
+             </datalist>
+        
+             <br><br>
+        <label>Gender:</label>
+        <label>Male</label>
+        <input type="radio" name="gender"/>
+        <label>Female</label>
+        <input type="radio" name="gender"/>
+        <br><br>
+
+        <label>Hobbies:</label>
+        <label>Sports</label>
+        <input type="checkbox"/> 
+        <label>Reading</label>
+        <input type="checkbox"/> 
+        <label>Writing </label>
+        <input type="checkbox"/> 
+        <label>Hacking</label>
+        <input type="checkbox"/> 
+        <br><br>
+
+        <lables>Emails:</lables>
+        <input type="email"/>
+          <br><br>
+          <lables>URL:</lables>
+          <input type="url"/> 
+          <br><br>
+
+          <lables>Telephone:</lables>
+          <input type="tel" maxlength="11"/> 
+          <br><br>
+   
+          <lables>Age:</lables>
+          <input type="number" min="1", max="50" /> 
+          <br><br>
+
+          <lables>Marks:</lables>
+          <input type="range" min="1", max="10" /> 
+          <br><br>
+ 
+          <lables>Date of Birth:</lables>
+          <input type="date"/> 
+          <br><br>
+
+          <lables>Month:</lables>
+          <input type="month"  /> 
+          <br><br>
+
+          <lables>Week:</lables>
+          <input type="week"  /> 
+          <br><br>
+
+          <lables>Time:</lables>
+          <input type="time"  />  
+          <br><br>
+
+          <lables>Date and Time:</lables>
+          <input type="datetime-local"  />  
+          <br><br>
+
+          <lables> Select Color:</lables>
+          <input type="color"  />  
+          <br><br>
+
+        <input type="submit"/>
+
+    </fieldset>
+    </form>
+</center>
+</body>
+</html>
